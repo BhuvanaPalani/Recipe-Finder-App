@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_diet_balanced"    android:title="Balanced"/>
+    <item android:id="@+id/m_diet_high_fiber"  android:title="High Fiber"/>
+    <item android:id="@+id/m_diet_high_protein" android:title="High Protein"/>
+    <item android:id="@+id/m_diet_low_carb"    android:title="Low Carbs"/>
+    <item android:id="@+id/m_diet_low_fat"     android:title="Low Fat"/>
+    <item android:id="@+id/m_diet_low_sodium"  android:title="Low Sodium"/>
+</menu>

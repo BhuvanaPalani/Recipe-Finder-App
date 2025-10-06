@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_dish_main"  android:title="Main course"/>
+    <item android:id="@+id/m_dish_side"  android:title="Side dish"/>
+    <item android:id="@+id/m_dish_dessert" android:title="Dessert"/>
+    <item android:id="@+id/m_dish_soup"  android:title="Soup"/>
+    <item android:id="@+id/m_dish_salad" android:title="Salad"/>
+</menu>

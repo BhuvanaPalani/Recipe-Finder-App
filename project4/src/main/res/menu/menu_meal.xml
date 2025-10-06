@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_meal_breakfast"   android:title="Breakfast"/>
+    <item android:id="@+id/m_meal_lunch"       android:title="Lunch/Dinner"/>
+    <item android:id="@+id/m_meal_snack"       android:title="Snack"/>
+    <item android:id="@+id/m_meal_teatime"     android:title="Teatime"/>
+</menu>

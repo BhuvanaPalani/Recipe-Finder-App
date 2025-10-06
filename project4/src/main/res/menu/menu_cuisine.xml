@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_cuisine_american" android:title="American"/>
+    <item android:id="@+id/m_cuisine_asian"    android:title="Asian"/>
+    <item android:id="@+id/m_cuisine_french"   android:title="French"/>
+    <item android:id="@+id/m_cuisine_indian"   android:title="Indian"/>
+    <item android:id="@+id/m_cuisine_italian"  android:title="Italian"/>
+</menu>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/imageViewRecipe"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iconIngredients"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ingredients_icon"
+        app:layout_constraintStart_toEndOf="@id/imageViewRecipe"
+        app:layout_constraintTop_toTopOf="@id/imageViewRecipe" />
+
+    <TextView
+        android:id="@+id/textIngredients"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iconIngredients"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iconIngredients"
+        app:layout_constraintTop_toTopOf="@id/iconIngredients" />
+
+
+    <ImageView
+        android:id="@+id/iconCalories"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/calories_icon"
+        app:layout_constraintStart_toStartOf="@id/iconIngredients"
+        app:layout_constraintTop_toBottomOf="@id/iconIngredients" />
+
+    <TextView
+        android:id="@+id/textCalories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iconCalories"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iconCalories"
+        app:layout_constraintTop_toTopOf="@id/iconCalories" />
+
+
+    <ImageView
+        android:id="@+id/iconTime"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/time_icon"
+        app:layout_constraintStart_toStartOf="@id/iconIngredients"
+        app:layout_constraintTop_toBottomOf="@id/iconCalories" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iconTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iconTime"
+        app:layout_constraintTop_toTopOf="@id/iconTime" />
+
+
+    <ImageView
+        android:id="@+id/iconCuisine"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/cuisine_icon"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewRecipe"
+        app:layout_constraintStart_toStartOf="@id/iconIngredients"
+        app:layout_constraintTop_toBottomOf="@id/iconTime" />
+
+    <TextView
+        android:id="@+id/textCuisine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iconCuisine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iconCuisine"
+        app:layout_constraintTop_toTopOf="@id/iconCuisine" />
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewRecipe" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

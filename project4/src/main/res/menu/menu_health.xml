@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_health_peanut_free" android:title="Peanut-Free"/>
+    <item android:id="@+id/m_health_tree_nut_free" android:title="Tree-Nut-Free"/>
+    <item android:id="@+id/m_health_alcohol_free" android:title="Alcohol-Free"/>
+    <item android:id="@+id/m_health_vegan" android:title="Vegan"/>
+    <item android:id="@+id/m_health_vegetarian" android:title="Vegetarian"/>
+</menu>

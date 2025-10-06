@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">Module 202 - Project 4</string>
+    <string name="search_results">Search Results</string>
+    <string name="balanced_recipes">Balanced Recipes</string>
+    <string name="search">Search</string>
+    <string name="diet">Diet</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="meal">Meal</string>
+    <string name="dish">Dish</string>
+    <string name="health">Health</string>
+    <string name="search_for_a_recipe">Search for a recipe</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="delicious">Delicious</string>
+</resources>
